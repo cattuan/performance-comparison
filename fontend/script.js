@@ -83,7 +83,7 @@ function run() {
                 + "<br>|  Concurrent Requests: " + quantity                
                 + "<br>|  Fail Requests: " + fail
                 + "<br>|  Average Response time: " + Math.round(sumTimes / quantity) + " ms"                
-                + "<br>|  Compete time: " + (d.getTime() - startTime) + " ms";                
+                + "<br>|  Toatl Completed time: " + (d.getTime() - startTime) + " ms";                
             monitor.appendChild(e);
         }
 
