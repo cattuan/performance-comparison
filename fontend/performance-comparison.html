@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
+    <title>Performance comparison</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td><input id="txtAddress" type="text" placeholder="Address"></td>
+            <td><input id="txtPort" type="text" placeholder="Port"></td>
+            <td><input id="txtQuantity" type="text" placeholder="Quantity"></td>
+            <td><input type="button" value="Run" onclick="run();"></td>
+        </tr>
+    </table>
+    <div id="monitor"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
