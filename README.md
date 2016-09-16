@@ -1,5 +1,6 @@
-# Hướng dẫn 
-<b>1.Càì đặt</b>
-Cài đặt Java các bạn xem ở 
+# Command line
+
+Run Java server: </i>mvn clean install && mvn tomcat7:run</i>
+Run Node server: </i>node app.js</i>
 
 
